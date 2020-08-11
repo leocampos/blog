@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile "junit:junit:4.12"
+    testCompile "org.mockito:mockito-core:1.9.5"
     implementation "com.google.cloud:google-cloud-monitoring:1.100.1"
 }

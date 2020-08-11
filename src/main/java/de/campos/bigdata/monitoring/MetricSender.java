@@ -11,6 +11,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * @author Leonardo Campos
+ * This class is not have production level code. Its sole purpose is to show the basic mechanism to send data points to
+ * Google Cloud Monitoring.
+ *
+ * https://cloud.google.com/monitoring/docs/reference/libraries#client-libraries-install-java
+ */
 public class MetricSender {
     private final String metricName;
     private final String namespace;
